@@ -18,7 +18,6 @@ const Navbar = () => {
                 <a href='/'>Home</a>
                 <a href='/Login'>Login</a>
                 <a href='/Register'>Register</a>
-                <p>Contact</p>
             </div>
 
             <button className="openbtn" onClick={openNav}>☰ Menu</button>

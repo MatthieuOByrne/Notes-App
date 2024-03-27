@@ -4,4 +4,3 @@ module.exports = {
     jwtSecret: "vsdvfsdvfvdfvfbdvfdvdgbvgvgvgdv",
     jwtTokenDuration: 30 * 24 * 60 * 60
 };
-J

@@ -33,7 +33,6 @@ code {
   font-size: 30px;
 }
 .Forms_Sign_In {
-  background-image: linear-gradient(to right, rgb(128, 0, 255) , rgb(255, 0, 187));
   width: 100vw;
   height: 100vh;
   text-align: center;
@@ -43,6 +42,10 @@ code {
   width: 100vw;
   height: 100vh;
   text-align: center;
+}
+
+.Auth_Form_Container {
+  border-radius: 10%;
 }
 
 .sidepanel  {
@@ -71,7 +74,7 @@ code {
   color: #f1f1f1;
 }
 
-.sidepanel .closebtn {
+.sidepanel.closebtn {
   position: absolute;
   top: 0;
   right: 25px;
