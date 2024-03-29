@@ -6,8 +6,8 @@ const router = express.Router();
 const cors = require('cors');
 app.use(logger("dev"));
 
-router.get("/ViewNotes", require('./Routes/ViewNotes.js'));
-//router.get("/CreateNote", require('./Routes/CreateNote.js'));
+//router.get("/ViewNotes", cors(), require('./Routes/ViewNotes.js'));
+//router.get("/CreateNote", cors(), require('./Routes/CreateNote.js'));
 //router.get("/Login", require("./Routes/Login.js"))
 router.get("/Login", cors(), require("./Routes/Login.js"))
 router.get("/Register", cors(), require("./Routes/Register.js"))

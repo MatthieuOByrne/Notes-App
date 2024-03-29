@@ -28,6 +28,14 @@ module.exports = {
         let array = await notesCollection.find(query);
         return await array.toArray()
     },
+    getNoteByUserId: async function (userId) {
+        const db = mongoClient.db('Notes');
+        const usersCollection = db.collection('Notes');
+        let user = await usersCollection.findOne({
+            userId: userId
+        });
+        return user;
+    },
 
     listUsers: async function (query) {
         const db = mongoClient.db('Notes');
