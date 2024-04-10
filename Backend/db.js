@@ -54,6 +54,7 @@ module.exports = {
         }
         return null;
     },
+    
 
     getUserById: async function (id) {
         const db = mongoClient.db('Notes');
